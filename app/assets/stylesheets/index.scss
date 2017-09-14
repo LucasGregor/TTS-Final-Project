@@ -2,7 +2,6 @@
 .navbar.transparent.navbar-inverse {
    background: rgba(0,0,0,0.2);
    width: 500px;
-  //  min-width:
    margin: auto;
    border-color: #50E4FF;
    border-radius: 15px;
@@ -18,13 +17,10 @@ ul.navbar-nav {
   }
 
 .homepage {
-  // width: 500px;
-  // margin: 25px auto;
-  // background-color:transparent !important;
   text-align: justify;
   -moz-text-align-last: center;
   text-align-last: center;
-  background-image: url("http://i.imgur.com/OcFygJu.jpg");
+  background-image: image-url("http://localhost:3000/mainbg.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,13 +43,7 @@ p.lead {
   display: block;
   margin: auto;
   padding-top: 45px;
-  // margin: 150px auto 0px auto;
-  // width: 70%;
 }
-
-// body, html {
-//      height: 100%;
-//  }
 
  .parallax-inner {
    padding-top: 25px;
@@ -62,6 +52,7 @@ p.lead {
 
  .parallax {
    background: url("http://heroes.gameward.tv/wp-content/uploads/2017/01/background-gameward-heroes-of-the-storm.jpg") repeat fixed 100%;
+  //  background-image: url("http://localhost:3000/parallax1.jpg") ;
    width: 100%;
    background-position: center;
    background-repeat: no-repeat;
@@ -91,7 +82,6 @@ p.lead {
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.35);
 }
-
 
 // MOBA section
 // MOBA section
@@ -177,45 +167,11 @@ div.mobasection img{
   top: 25px;
 
   width: 45%;
-
 }
 
-
-
-
-
-// div.mobasection img{
-//   width: 600px;
-//   margin: 25px auto;
-//   display: block;
-// }
-
-// .parallax-inner2 {
-//   padding-top: 25px;
-//   padding-bottom: 25px;
-// }
-//
-// .parallax2 {
-//   background: url("https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/1CZUQU4DVT711436217116016.jpg") repeat fixed 100%;
-//   width: 100%;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
-//
-// div.parallax-inner2 h3 {
-//  text-align: center;
-//  font-size: 500%;
-//  color: #50E4FF;
-//  letter-spacing: 1%;
-//  padding: 2%;
-//  }
-
 // Roles section
 // Roles section
 // Roles section
-
-
 
 div.rolessection {
    background-image: url("http://i.imgur.com/OcFygJu.jpg");
@@ -363,7 +319,6 @@ div.rolessection .warriors .textcontainer h3 {
   position: relative;
   top: 25px;
   right: 45px;
-
 }
 
 .warriors .minus h5 {
@@ -426,7 +381,6 @@ div.rolessection .support .textcontainer h3 {
   position: relative;
   top: 25px;
   right: 5px;
-
 }
 
 .support .minus h5 {
@@ -506,7 +460,6 @@ div.rolessection .specialist .textcontainer h3 {
   float: right;
 }
 
-
 // TEAM COMPOSITION SECTION
 // TEAM COMPOSITION SECTION
 // TEAM COMPOSITION SECTION
@@ -575,7 +528,6 @@ div.compsection .comptextcontainer h3 {
 
 // TANKROW
 // TANKROW
-
 
 #tanktext{
   float: left;
