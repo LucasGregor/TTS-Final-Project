@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HOTS 101</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <nav class="navbar transparent navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- <a class="navbar-brand" href="#">HOTS 101</a> -->
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">HOME</a></li>
+      <li><a href="#mobalink">MOBAs</a></li>
+      <li><a href="#roleslink">ROLES</a></li>
+      <li><a href="#teamcomplink">TEAM COMP</a></li>
+      <li><a href="#mapslink">MAPS</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- <div class='container'> -->
+    <%= yield %>
+  <!-- </body> -->
+  <div>
+</html>
